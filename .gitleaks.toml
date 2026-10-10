@@ -1,0 +1,12 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "全局允许列表"
+paths = [
+  '''\.gitleaks\.toml''',
+  '''\.pre-commit-config\.yaml''',
+  '''gitleaks-report\.json''',
+  '''test/fixtures/.*''',
+  '''docs/examples/.*''',
+]
